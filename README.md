@@ -18,6 +18,9 @@ After removing the bugs the application will look like this :
 <img src = "https://i.imgur.com/DfIu4Aq.png" width=350>
 
 
+<img src="https://github.com/sabdar18/WeeklyChallengeOne/blob/master/git_weekly_challenge_1.gif" width=250>
+
+
 
 ## Successful PR by :
 
