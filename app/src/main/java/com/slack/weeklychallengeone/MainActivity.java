@@ -24,14 +24,29 @@ public class MainActivity extends AppCompatActivity {
         initViews();
         loadData();
     }
-    private void initViews(){
+
+    private void initViews() {
         mRecyclerView = findViewById(R.id.recyler_view);
         mRecyclerView.setHasFixedSize(true);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(layoutManager);
+
     }
-   private void loadData(){
+
+    private void loadData() {
         mArrayList = new ArrayList<>();
+        mArrayList.add(new Model("Constraint Layout"));
+        mArrayList.add(new Model("Linear Layout"));
+        mArrayList.add(new Model("Relative Layout"));
+        mArrayList.add(new Model("Card View"));
+        mArrayList.add(new Model("Scroll Views"));
+        mArrayList.add(new Model("Grid View"));
+        mArrayList.add(new Model("Constraint Layout"));
+        mArrayList.add(new Model("Linear Layout"));
+        mArrayList.add(new Model("Relative Layout"));
+        mArrayList.add(new Model("Card View"));
+        mArrayList.add(new Model("Scroll Views"));
+        mArrayList.add(new Model("Grid View"));
         mArrayList.add(new Model("Constraint Layout"));
         mArrayList.add(new Model("Linear Layout"));
         mArrayList.add(new Model("Relative Layout"));
